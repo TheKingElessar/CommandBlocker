@@ -1,0 +1,19 @@
+name: ${project.name}
+main: com.thekingelessar.commandblocker.CommandBlocker
+version: ${project.version}
+author: TheKingElessar
+dependencies: []
+description: ${project.description}
+website: ${project.url}
+permissions:
+  blocker.reload:
+    description: Allows reloading of the config
+  blocker.add:
+    description: Allows adding of more blocked commands
+commands:
+  blocker:
+    description: Reloads the config.yml
+    usage: |
+      §5/blocker§r §freload
+      §5/blocker§r §fadd [command] [permission | "none"] [group]
+    aliases: []

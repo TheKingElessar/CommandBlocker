@@ -1,0 +1,18 @@
+# These are examples to show how the configuration works. Chances are they won't mess with any of your commands.
+blocked_commands:
+
+  # The player must have the permission commandblocker.kill to use this command.
+  - command: givemediamonds
+    permission: commandblocker.givemediamonds
+
+  # The player must have the permission group operator to use this command.
+  - command: setoperator
+    group: operator
+
+  # The player must have EITHER the permission commandblocker.toggledownfall OR the permission group raingod to use this command.
+  - command: changeweather
+    permission: other.plugin.toggledownfall
+    group: raingod
+
+  # The player can never use this command.
+  - command: changegamemode
