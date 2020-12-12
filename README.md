@@ -6,7 +6,7 @@ This plugin allows you to block certain commands coming from player clients. So,
 
 I'm not an expert; this possibly could be bypassed or exploited if someone tried hard enough. If you have significant security concerns for your server, maybe think twice about entrusting it to this plugin. But if you have permissions per-server and you only have this on the applicable vanilla minigame server, it should be alright.
 
-Drop [this bad boy](https://github.com/TheKingElessar/SpinToWin/releases) in your `plugins` folder. Start the server, and the `config.yml` file will be generated. You can see it below.
+Drop [this bad boy](https://github.com/TheKingElessar/CommandBlocker/releases) in your `plugins` folder. Start the server, and the `config.yml` file will be generated. You can see it below.
 
 ### Commands:
 `/blocker add <command> <permission | "none"> <group>`: Set how many seconds we should wait before MOLE MODE after it's down to the final two.
